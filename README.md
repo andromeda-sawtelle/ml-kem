@@ -16,8 +16,8 @@ I am following the FIPS 203 draft published on August 14, 2023
 | Bytes to Bits |             |        |   |
 | Bits to Bytes |             |        |   |
 | Bit rev       |             |        |   |
-| SampleNTT     |             |        |   |
 | NTT           |             |        |   |
+| SampleNTT     |             |        |   |
 | SamplePolyCBD |             |        |   |
 | Byte Encode   |             |        |   |
 | K-PKE Keygen  |             |        |   |
