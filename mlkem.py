@@ -29,18 +29,3 @@ def array_to_string(A, w):
             s = s + chr(int(ch) + 48)
     return s
 
-def test():
-    lengths = [25, 50, 100, 200, 400, 800, 1600]
-    for lens in lengths:
-        s = ""
-        for bits in range(lens):
-            s = s + chr(random.randint(0, 1) + 48)
-        w = int(lens/25)
-        arr=string_to_array(s, w)
-        new_s=array_to_string(arr, w)
-        if s != new_s:
-            print("b = " + str(lens) + " failed with")
-            print("    s = " + s)
-            print("new_s = " + new_s)
-        else:
-            print("passed")
