@@ -9,7 +9,7 @@ I am following the FIPS 203 draft published on August 14, 2023
 ## Todo
 
 ### Keygen
-Using https://github.com/libtom/libtomcrypt for implementation of SHAKE128 and SHAKE256.
+Using https://github.com/libtom/libtomcrypt for implementation of SHAKE128 and SHAKE256 in C and https://pypi.org/project/pycrypto for Python.
 
 |               | Pseudo-code | Python | C |
 |---------------|-------------|--------|---|
