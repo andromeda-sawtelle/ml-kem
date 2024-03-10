@@ -16,8 +16,9 @@ Using https://github.com/libtom/libtomcrypt for implementation of SHAKE128 and S
 - [x] Bytes to Bits
 - [x] Bits to Bytes
 - [ ] Bit rev
+- [ ] Byte Encode
+- [ ] Byte Decode
 - [ ] NTT
 - [ ] SampleNTT
 - [ ] SamplePolyCBD
-- [ ] Byte Encode
 - [ ] K-PKE Keygen
