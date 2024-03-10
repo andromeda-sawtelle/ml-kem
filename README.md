@@ -13,8 +13,8 @@ Using https://github.com/libtom/libtomcrypt for implementation of SHAKE128 and S
 
 - [x] SHAKE128/XOF
 - [x] SHAKE256/PRF
-- [ ] Bytes to Bits
-- [ ] Bits to Bytes
+- [x] Bytes to Bits
+- [x] Bits to Bytes
 - [ ] Bit rev
 - [ ] NTT
 - [ ] SampleNTT
