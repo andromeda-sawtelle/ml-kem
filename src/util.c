@@ -21,3 +21,7 @@ void set_bit(bb_array_t *B, uint8_t index, bool value) {
     int offset = index % 8;
     B->data[i] = (B->data[i] & ~(1 << offset)) | (value << offset);
 }
+
+bb_array_t byte_encode(uint16_t *input, uint16_t input_length) {
+    for
+}
